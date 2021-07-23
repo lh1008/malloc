@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
+#include <stdio.h>
+#include <signal.h>
 
 #define M_CHUNK getpagesize()
 #define HEADER_S sizeof(size_t)

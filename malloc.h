@@ -10,5 +10,6 @@
 #define HEADER_S sizeof(size_t)
 
 void *naive_malloc(size_t size);
+void *_malloc(size_t size);
 
 #endif /* MALLOC_H */

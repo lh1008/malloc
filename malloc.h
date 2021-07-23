@@ -51,5 +51,6 @@ typedef struct block_info_s
 
 void *naive_malloc(size_t size);
 void *_malloc(size_t size);
+void print_heap(void);
 
 #endif /* MALLOC_H */
